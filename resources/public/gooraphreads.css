@@ -1,0 +1,96 @@
+/* FONTS */
+@font-face {
+    font-family: 'Cantarell';
+    src: url('fonts/Cantarell-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Cantarell-Bold';
+    src: url('fonts/Cantarell-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Cantarell-Oblique';
+    src: url('fonts/Cantarell-Oblique.ttf');
+}
+
+/* GLOBAL */
+
+body {
+    background-color: #C6E5E5;
+    font-family: Cantarell, Tahoma, Geneva, sans-serif;
+    text-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+
+input {
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	padding: 5px;
+	margin-left: 5px;
+	border: 2px solid rgb(45, 145, 234);
+}
+
+h1 {
+	text-align: center;
+    font-family: Cantarell-Bold;
+    color: #435C98;
+}
+
+h2 {
+	text-align: center;
+    font-family: Cantarell-Oblique;
+    color: #9FA4AF;
+}
+
+h3 {
+	background-color: #409595;
+	color: #E0F2F2;
+	text-align: center;
+	margin-top: 0px;
+    border-top-left-radius: 10px 5px;
+    border-top-right-radius: 10px;
+	-webkit-border-top-left-radius: 10px 5px;
+  	-webkit-border-top-right-radius: 10px;
+  	-moz-border-radius-topleft: 10px 5px;
+  	-moz-border-radius-topright: 10px;
+}
+
+a { text-decoration: none; }
+
+a:link, a:visited, a:hover a:active { color: #000 }
+
+/* SPECIFIC */
+
+.rounded {
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+div.mainGraphContainer {
+	display: inline;
+	float: left;
+	background-color: #E0F2F2;
+	margin: 3px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+    border-top-left-radius: 10px 5px;
+    border-top-right-radius: 10px;
+	-webkit-border-top-left-radius: 10px 5px;
+  	-webkit-border-top-right-radius: 10px;
+  	-moz-border-radius-topleft: 10px 5px;
+  	-moz-border-radius-topright: 10px;
+}
+
+#inputs {
+	text-align:center;
+}
+
+#uploadButton {
+	background-color: rgb(45, 145, 234);
+	color: #fff;
+	border: 0px;
+	font-size: 14px;
+}
